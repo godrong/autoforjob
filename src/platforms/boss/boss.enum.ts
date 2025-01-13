@@ -1,0 +1,21 @@
+export enum Experience {
+  NULL = '0',
+  STUDENT = '108',
+  GRADUATE = '102',
+  UNLIMITED = '101',
+  LESS_THAN_ONE_YEAR = '103',
+  ONE_TO_THREE_YEARS = '104',
+  THREE_TO_FIVE_YEARS = '105',
+  FIVE_TO_TEN_YEARS = '106',
+  MORE_THAN_TEN_YEARS = '107'
+}
+
+export enum CityCode {
+  NULL = '0',
+  ALL = '100010000',
+  BEIJING = '101010100',
+  SHANGHAI = '101020100',
+  GUANGZHOU = '101280100',
+  SHENZHEN = '101280600',
+  CHENGDU = '101270100'
+} 

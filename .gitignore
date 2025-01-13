@@ -1,0 +1,43 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+/src/main/
+config.yaml
+
+### VS Code ###
+.vscode/
+src/main/java/boss/data.json
+
+### Mac OS ###
+.DS_Store
+cookie.json
+.env
+chromedriver
+# Dependencies
+node_modules/
+dist/
+
+# Environment
+.env
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+*.js.map
+*.d.ts
+
+# Cache
+.npm
+.eslintcache
